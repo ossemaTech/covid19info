@@ -8,11 +8,6 @@
     overflow: hidden;
 }
 
-.container,
-.row{
-    height: 100%  
-}
-
 .orderImglg {order: 2;height: 100%}
 
 .imageHeader {
