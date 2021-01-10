@@ -3,18 +3,24 @@
 
 .header {
     width: 100%;
+    height: 550px;
     background-color: #f7f9fe;
     overflow: hidden;
 }
 
-.orderImglg {order: 2;}
+.container,
+.row{
+    height: 100%  
+}
+
+.orderImglg {order: 2;height: 100%}
 
 .imageHeader {
     height: 100%;
     padding-top: 20px;
 }
 
-.imageHeader img {max-width: 130%;height: 115%;}
+.imageHeader img {max-width: 130%;height: 100%;}
 
 @media(max-width: 991px) {
     .orderImglg {
