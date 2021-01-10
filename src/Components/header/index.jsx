@@ -20,8 +20,8 @@ function SectionHeader({data : {cases, recovered, deaths, updated}}) {
 
     return (
         <div className={styles.header}>
-            <Container>
-                <Row>
+            <Container className="containerHeader">
+                <Row className="rowHeader">
                     <Col lg='5' className={styles.orderImglg}>
                         <div className={styles.imageHeader}>
                             <img src='../images/header_covid19.png' alt='covid-19'/>
