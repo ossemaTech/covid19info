@@ -8,10 +8,9 @@
     overflow: hidden;
 }
 
-.orderImglg {order: 2;height: 100%}
+.orderImglg {order: 2;}
 
 .imageHeader {
-    height: 100%;
     padding-top: 20px;
 }
 
